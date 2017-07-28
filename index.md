@@ -3,7 +3,7 @@ title: ""
 permalink: /
 layout: single
 excerpt: "homepage of Yi-Chao Chen's website"
-last_modified_at: 2017-06-11T16:15:00
+last_modified_at: 2017-07-28T17:15:00
 author_profile: true
 header:
   image: /assets/images/banner_ut_austin.png
@@ -20,38 +20,46 @@ I'm Chief Scientist in a startup company based on Austin. I received my B.S. and
 * Our paper **MagneComm** got accepted at MobiCom 2017. 
 * Our paper **SketchVisor** got accepted at SigComm 2017. 
 * Our paper **Strata** got accepted at MobiSys 2017. 
-* Our paper on **Parking** project got accepted at Percom 2017. 
+* Our paper on **iParking** project got accepted at Percom 2017. 
 
 
 ## Selected Publications
 
+* **MagneComm: Magnetometer-based Near-Field Communication**.  
+  Hao Pan, Yi-Chao Chen, Guangtao Xue, Xiaoyu Ji.  
+  ACM MobiCom 2017.  
+
+* **SketchVisor: Robust Network Measurement for Software Packet Processing**.  
+  Qun Huang, Xin Jin, Patrick P. C. Lee, Runhui Li, Lu Tang, Yi-Chao Chen, Gong Zhang.  
+  ACM SigComm 2017.  
+
 * **Strata: Fine-Grained Device-Free Tracking Using Acoustic Signals**.  
-  Sangki Yun, <u>Yi-Chao Chen</u>, Huihuang Zheng, Lili Qiu, and Wenguang Mao.  
-  ACM MobiSys 2017. To Appear.
+  Sangki Yun, Yi-Chao Chen, Huihuang Zheng, Lili Qiu, and Wenguang Mao.  
+  ACM MobiSys 2017.
 
 * **Toward an Easy Deployable Outdoor Parking System – Lessons from Long-term Deployment**.  
-  Yu Huang, <u>Yi-Chao Chen</u>, Chuang-Wen You, Yi-Ling Chen, Dian-Xuan Wu, and Kai-Lung Hua.  
-  IEEE Percom 2017.  
-  [[PDF]](/assets/publications/percom17_parking.pdf), [[PPT]](/assets/publications/percom17_parking.pptx)
+  Yu Huang, Yi-Chao Chen, Chuang-Wen You, Yi-Ling Chen, Dian-Xuan Wu, and Kai-Lung Hua.  
+  IEEE Percom 2017.
 
 * **Turning a Mobile Device into a Mouse in the Air**.  
-  Sangki Yun, <u>Yi-Chao Chen</u>, Lili Qiu.  
+  Sangki Yun, Yi-Chao Chen, Lili Qiu.  
   ACM MobiSys 2015.
 
 * **Robust Network Compressive Sensing**.  
-  <u>Yi-Chao Chen</u>, Lili Qiu, Yin Zhang, Zhenxian Hu, Guangtao Xue.  
+  Yi-Chao Chen, Lili Qiu, Yin Zhang, Zhenxian Hu, Guangtao Xue.  
   ACM MobiCom 2014.
 
 * **OS Fingerprinting and Tethering Detection in Mobile Networks**.  
-  <u>Yi-Chao Chen</u>, Yong Liao, Mario Baldi, Sung-Ju Lee, Lili Qiu.  
+  Yi-Chao Chen, Yong Liao, Mario Baldi, Sung-Ju Lee, Lili Qiu.  
   ACM IMC 2014.
 
 * **Event Detection using Customer Care Calls**.  
-  <u>Yi-Chao Chen</u>, Gene Moo Lee, Nick Duffield, Lili Qiu, and Jia Wang.  
+  Yi-Chao Chen, Gene Moo Lee, Nick Duffield, Lili Qiu, and Jia Wang.  
   IEEE Infocom 2013.
 
 * **Harnessing Frequency Diversity in Multicarrier Wireless Networks**.  
-  Apurv Bhartia, <u>Yi-Chao Chen</u>, Swati Rallapalli, and Lili Qiu.  
+  Apurv Bhartia, Yi-Chao Chen, Swati Rallapalli, and Lili Qiu.  
   ACM MobiCom 2011.
 
   [[Full List]](/publication/)
+  
