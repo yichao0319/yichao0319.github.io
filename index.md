@@ -29,10 +29,6 @@ I'm Chief Scientist in a startup company based on Austin. I received my B.S. and
   Hao Pan, Yi-Chao Chen, Guangtao Xue, Xiaoyu Ji.  
   ACM MobiCom 2017.  
 
-* **SketchVisor: Robust Network Measurement for Software Packet Processing**.  
-  Qun Huang, Xin Jin, Patrick P. C. Lee, Runhui Li, Lu Tang, Yi-Chao Chen, Gong Zhang.  
-  ACM SigComm 2017.  
-
 * **Strata: Fine-Grained Device-Free Tracking Using Acoustic Signals**.  
   Sangki Yun, Yi-Chao Chen, Huihuang Zheng, Lili Qiu, and Wenguang Mao.  
   ACM MobiSys 2017.
@@ -56,10 +52,6 @@ I'm Chief Scientist in a startup company based on Austin. I received my B.S. and
 * **Event Detection using Customer Care Calls**.  
   Yi-Chao Chen, Gene Moo Lee, Nick Duffield, Lili Qiu, and Jia Wang.  
   IEEE Infocom 2013.
-
-* **Harnessing Frequency Diversity in Multicarrier Wireless Networks**.  
-  Apurv Bhartia, Yi-Chao Chen, Swati Rallapalli, and Lili Qiu.  
-  ACM MobiCom 2011.
 
   [[Full List]](/publication/)
   
