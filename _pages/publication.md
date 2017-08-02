@@ -68,11 +68,13 @@ author_profile: false
 
 * **Analysis and Applications of Smartphone User Mobility**.  
   Swati Rallapalli, Wei Dong, Gene Moo Lee, <u>Yi-Chao Chen</u>, Lili Qiu.  
-  NetSciCom Workshop (co-located with IEEE Infocom 2013).
+  NetSciCom Workshop (co-located with IEEE Infocom 2013).  
+  [[PDF]](/assets/publications/netscicom13_rallapalli.pdf)
 
 * **Mobile Video Delivery via Human Movement**.  
   Gene Moo Lee, Swati Rallapalli, Wei Dong, <u>Yi-Chao Chen</u>, Lili Qiu, Yin Zhang.  
-  IEEE SECON 2013.
+  IEEE SECON 2013.  
+  [[PDF]](/assets/publications/secon13_lee.pdf)
 
 * **Model-Driven Energy-Aware Rate Adaptation**.  
   Muhammad Owais Khan, Vacha Dave, <u>Yi-Chao Chen</u>, Oliver Jensen, Lili Qiu, Apurv Bhartia, Swati Rallapalli.  
@@ -96,30 +98,37 @@ author_profile: false
 
 * **YushanNet: A Delay-Tolerant Wireless Sensor Network for Hiker Tracking in Yushan National Park**.  
   Yu-Te Huang, <u>Yi-Chao Chen</u>, Jyh-How Huang, Ling-Jyh Chen, Polly Huang.  
-  IEEE MDM 2009.
+  IEEE MDM 2009.  
+  [[PDF]](/assets/publications/mdm09_yushannet.pdf)
 
 * **An Evaluation of Routing Reliability in Non-collaborative Opportunistic Networks**.  
   Ling-Jyh Chen, Che-Liang Chiou, <u>Yi-Chao Chen</u>.  
-  IEEE AINA 2009.
+  IEEE AINA 2009.  
+  [[PDF]](/assets/publications/aina09_chen.pdf)
 
 * **Improving Opportunistic Data Dissemination via Known Vector**.  
   Jyh-How Huang, Ying-Yu Chen, <u>Yi-Chao Chen</u>, Shivakant Mishra, Ling-Jyh Chen.  
-  IEEE AINA Workshops 2009.
+  IEEE AINA Workshops 2009.  
+  [[PDF]](/assets/publications/aina09_huang.pdf)
 
 * **Sensor-Enhanced Mobility Prediction for Energy-Efficient Localization**.  
   Chuang-wen You, <u>Yi-Chao Chen</u>, Ji-Rung Chiang, Polly Huang, Hao-hua Chu, Seng-Yong Lau.  
-  IEEE SECON 2006.
+  IEEE SECON 2006.  
+  [[PDF]](/assets/publications/secon06_you.pdf)
 
 * **Collaborative Localization: Enhancing WiFi-Based Position Estimation with Neighborhood Links in Clusters**.  
   Li-Wei Chan, Ji-Rung Chiang, <u>Yi-Chao Chen</u>, Chia-Nan Ke, Jane Yung-Jen Hsu, Hao-Hua Chu.  
-  Pervasive 2006.
+  Pervasive 2006.  
+  [[PDF]](/assets/publications/pervasive06_chan.pdf)
 
 * **Sensor-Assisted Wi-Fi Indoor Location System for Adapting to Environmental Dynamics**.  
   <u>Yi-Chao Chen</u>, Ji-Rung Chiang, Hao-Hua Chu, Polly Huang, Arvin Wen Tsui.  
-  ACM MSWiM 2005.
+  ACM MSWiM 2005.  
+  [[PDF]](/assets/publications/mswim05_chen.pdf)
 
 * **Design and Evaluation of mProducer: a Mobile Authoring Tool for Personal Experience Computing**.  
   Chao-ming Teng, Chon-in Wu, <u>Yi-Chao Chen</u>, Hao-Hua Chu, Jane Yung-jen Hsu.  
-  MUM 2004.
+  MUM 2004.  
+  [[PDF]](/assets/publications/mum04_teng.pdf)
 
 
