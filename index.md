@@ -17,7 +17,7 @@ I'm Chief Scientist in a startup based on Austin. I received my B.S. and M.S. in
 
 ## News 
 
-* Serve on the program committee of [[IoTSec 2017]](https://innopioneer.github.io/IoT-Security/).
+* Serve on the program committee of [IoTSec 2017](https://innopioneer.github.io/IoT-Security/).
 * Our paper **MagneComm** got accepted at MobiCom 2017. 
 * Our paper **SketchVisor** got accepted at SigComm 2017. 
 * Our paper **Strata** got accepted at MobiSys 2017. 
