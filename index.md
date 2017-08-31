@@ -3,7 +3,7 @@ title: ""
 permalink: /
 layout: single
 excerpt: "homepage of Yi-Chao Chen's website"
-last_modified_at: 2017-07-28T17:15:00
+last_modified_at: 2017-08-31T17:15:00
 author_profile: true
 header:
   image: /assets/images/banner_ut_austin.png
@@ -12,11 +12,12 @@ header:
 
 ## Bio
 
-I'm Chief Scientist in a startup company based on Austin. I received my B.S. and M.S. in the Department of Computer Science and Information Engineering at National Taiwan University in 2004 and 2006, respectively. I got my Ph.D. in Computer Science at the University of Texas at Ausin in 2015. Prior to my startup, I spent a year as a Researcher in Huawei Future Network Theory Lab in Hong Kong. My research interests focus on networked systems and span the areas of wireless networking, network measurement and analytics, and mobile computing.
+I'm Chief Scientist in a startup based on Austin. I received my B.S. and M.S. in the Department of Computer Science and Information Engineering at National Taiwan University in 2004 and 2006, respectively. I got my Ph.D. in Computer Science at the University of Texas at Ausin in 2015. Prior to my startup, I spent a year as a Researcher in Huawei Future Network Theory Lab in Hong Kong. My research interests focus on networked systems and span the areas of wireless networking, network measurement and analytics, and mobile computing.
 
 
 ## News 
 
+* Serve on the program committee of [[IoTSec 2017]](https://innopioneer.github.io/IoT-Security/).
 * Our paper **MagneComm** got accepted at MobiCom 2017. 
 * Our paper **SketchVisor** got accepted at SigComm 2017. 
 * Our paper **Strata** got accepted at MobiSys 2017. 
