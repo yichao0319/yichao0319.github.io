@@ -17,6 +17,7 @@ I'm Chief Scientist in a startup based on Austin. I received my B.S. and M.S. in
 
 ## News 
 
+* Our team is awarded with NSF SBIR Phase II ($750,000).
 * Serve on the program committee of [IoTSec 2017](https://innopioneer.github.io/IoT-Security/).
 * Our paper **MagneComm** got accepted at MobiCom 2017. 
 * Our paper **SketchVisor** got accepted at SigComm 2017. 
