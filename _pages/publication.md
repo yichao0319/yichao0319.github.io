@@ -3,7 +3,7 @@ title: "Publication"
 permalink: /publication/
 layout: splash
 excerpt: "academic publications"
-last_modified_at: 2017-06-11T16:15:00
+last_modified_at: 2017-10-19T15:00:00
 author_profile: false
 ---
 
@@ -14,7 +14,7 @@ author_profile: false
 * **MagneComm: Magnetometer-based Near-Field Communication**.  
   Hao Pan, <u>Yi-Chao Chen</u>, Guangtao Xue, Xiaoyu Ji.  
   ACM MobiCom 2017.  
-  [[PDF]](/assets/publications/mobicom17_pan.pdf)
+  [[PDF]](/assets/publications/mobicom17_pan.pdf), [[PPT]](/assets/publications/mobicom17_pan.pptx)
 
 * **SketchVisor: Robust Network Measurement for Software Packet Processing**.  
   Qun Huang, Xin Jin, Patrick P. C. Lee, Runhui Li, Lu Tang, <u>Yi-Chao Chen</u>, Gong Zhang.  
