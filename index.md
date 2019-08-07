@@ -17,12 +17,13 @@ I'm Chief Scientist in a startup based on Austin. I received my B.S. and M.S. in
 
 ## News 
 
-* Our team is awarded with NSF SBIR Phase II ($750,000).
-* Serve on the program committee of [IoTSec 2017](https://innopioneer.github.io/IoT-Security/).
-* Our paper **MagneComm** got accepted at MobiCom 2017. 
-* Our paper **SketchVisor** got accepted at SigComm 2017. 
-* Our paper **Strata** got accepted at MobiSys 2017. 
-* Our paper on **iParking** project got accepted at Percom 2017. 
+* [Dec. 19, 2017] Our team is selected as a finalist in [CMU Summit Startup Demo](https://www.cmu-summit.net/).
+* [Oct. 01, 2017] Our team is awarded with NSF SBIR Phase II ($750,000).
+* [Jun. 25, 2017] Serve on the program committee of [IoTSec 2017](https://innopioneer.github.io/IoT-Security/).
+* [Jun. 09, 2017] Our paper **MagneComm** got accepted at MobiCom 2017. 
+* [May. 05, 2017] Our paper **SketchVisor** got accepted at SigComm 2017. 
+* [Mar. 24, 2017] Our paper **Strata** got accepted at MobiSys 2017. 
+* [Dec. 12, 2016] Our paper on **iParking** project got accepted at Percom 2017. 
 
 
 ## Selected Publications

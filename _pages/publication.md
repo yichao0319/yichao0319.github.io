@@ -11,6 +11,10 @@ author_profile: false
 
   [[Google Scholar]](https://scholar.google.com/citations?user=LdNIR90AAAAJ)
 
+* **mQRCode: Secure QR Code Using Nonlinearity of Spatial Frequency in Light**.  
+  Hao Pan, Lanqing Yang, <u>Yi-Chao Chen</u>, Guangtao Xue, Chuang-Wen You, Xiaoyu Ji
+  ACM MobiCom 2019. To Appear.
+
 * **MagneComm: Magnetometer-based Near-Field Communication**.  
   Hao Pan, <u>Yi-Chao Chen</u>, Guangtao Xue, Xiaoyu Ji.  
   ACM MobiCom 2017.  
