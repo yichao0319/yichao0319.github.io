@@ -1,8 +1,12 @@
 ---
 layout: distill
-title: a distill-style blog post
+title: example project 1
 description: an example of a distill-style blog post and main elements
 date: 2021-05-22
+img: assets/img/3.jpg
+importance: 1000
+category: research
+date: 2019-10-21
 
 authors:
   - name: Albert Einstein

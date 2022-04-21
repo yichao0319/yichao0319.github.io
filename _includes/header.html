@@ -6,7 +6,13 @@
         <div class="container">
           {% if page.title != "about" -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+              {%- if site.title == "blank" -%}
+                <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}
+              {%- elsif site.title == "logo" -%}
+                <img src="{{ 'assets/img/logo-lab2.png' | relative_url }}"; width="300" />
+              {%- else -%}
+                {{ site.title }}
+              {%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
@@ -27,7 +33,7 @@
 
               <!-- About -->
               <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">about
+                <a class="nav-link" href="{{ '/' | relative_url }}">About
                   {%- if page.title == "about" -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -45,7 +51,8 @@
               {%- endif %}
 
               <!-- Other pages -->
-              {%- assign sorted_pages = site.pages | sort: "title" -%}
+              <!-- {%- assign sorted_pages = site.pages | sort: "title" -%} -->
+              {%- assign sorted_pages = site.pages | sort: "rank" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
