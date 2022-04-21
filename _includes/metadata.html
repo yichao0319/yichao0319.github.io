@@ -16,7 +16,7 @@
     {%- if site.title == "blank" -%}
         {%- capture title -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- endcapture -%}
     {%- else -%}
-        {%- capture title -%}{{ site.title }}{%- endcapture -%}
+        {%- capture title -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- endcapture -%}
     {%- endif -%}
     {%- if page.title != "blank" and page.url != "/" -%}
         {{ title }} | {{ page.title }}

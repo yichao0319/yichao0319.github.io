@@ -31,7 +31,9 @@ d-article {
   b i {
     display: inline;
   }
-
+  p {
+    text-align: justify;
+  }
   d-contents {
     align-self: start;
     grid-column: 1 / 4;
