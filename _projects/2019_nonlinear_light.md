@@ -2,10 +2,11 @@
 layout: distill
 title: Nonlinearity of Spatial Frequency in Light and Its Applications
 description: We model the nonlinear interaction between Color Filter Array and screens, and build applications inlcluding the novel optical encryption method for QR codes on top of our model.
-img: assets/img/project-moire-cover.jpg
+img: assets/img/project-moire-cover.png
 importance: 1
 category: research
 date: 2019-10-21
+show: true
 
 authors:
   - name: Hao Pan
