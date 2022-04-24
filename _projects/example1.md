@@ -7,6 +7,7 @@ img: assets/img/3.jpg
 importance: 1000
 category: research
 date: 2019-10-21
+show: false
 
 authors:
   - name: Albert Einstein

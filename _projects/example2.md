@@ -5,6 +5,7 @@ description: a project with a background image
 img: assets/img/4.jpg
 importance: 1001
 category: research
+show: false
 ---
 
 Every project has a beautiful feature showcase page.
