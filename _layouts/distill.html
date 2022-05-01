@@ -3,7 +3,6 @@
 <html>
   <head>
     {%- include head.html %}
-
     {% include scripts/mathjax.html %}
     <!-- Distill js -->
     <script src="{{ '/assets/js/distillpub/template.v2.js' | relative_url }}"></script>
@@ -61,49 +60,9 @@
     <!-- Content -->
     <div class="post distill">
 
+      <d-title></d-title>
+      
       <d-byline></d-byline>
-      <h2 class="post-title" style="font-weight: bold; text-align: center; ">{{ page.title }}</h2>
-
-      {% assign affiliations_list = "" %}
-      {% assign affiliations = affiliations_list | split: "," %}
-      {% assign aff_labels_list = "" %}
-      {% assign aff_labels = aff_labels_list | split: "," %}
-      {% assign max_label = 0 %}
-      <div style="font-weight: bold; text-align: center; font-size: 16px">
-      {% for author in page.authors -%}
-        <!-- check affiliations -->
-        {% assign found = 0 %}
-        {% assign this_label = max_label | plus:1 %}
-        {% for affiliation in affiliations -%}
-          {% if affiliation == author.affiliations.name %}
-            {% assign found = 1 %}
-            {% assign this_label = forloop.index %}
-          {% endif %}
-        {% endfor %}
-
-        {% if found == 0 %}
-          {% if forloop.index == 1 %}
-            {% assign affiliations_list = author.affiliations.name %}
-            {% assign affiliations = affiliations_list | split: "," %}
-          {% else %}
-            {% assign affiliations_list = affiliations_list | append: "," | append: author.affiliations.name %}
-            {% assign affiliations = affiliations_list | split: "," %}
-          {% endif %}
-          {% assign max_label = this_label %}
-        {% endif %}
-        <!-- END: check affiliations -->
-
-        {{ author.name }}<sup> {{ this_label }}</sup>
-        {% if forloop.last == false %},{% endif %}
-        {% if forloop.index == 5 %}<br>{% endif %}
-      {% endfor %}
-      </div>
-      <div style="font-weight: normal; text-align: center; font-size: 16px">
-      {% for affiliation in affiliations -%}
-        {{ affiliation }}<sup> {{ forloop.index }}</sup>
-        {% if forloop.last == false %}<br>{% endif %}
-      {% endfor %}
-      </div>
 
       <d-article>
         {% if page.toc -%}

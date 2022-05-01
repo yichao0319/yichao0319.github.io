@@ -1,0 +1,37 @@
+<tr align="left">
+  <th scope="row"><h6><label class="badge">{{ item.country }}</label></h6></th>
+  <td>
+    <h5> {{ item.name }} </h5>
+    🗺️  Country: {{ item.country }} <br>
+    📜  Status: {{ item.status }} <br>
+    🆔  Application Number: {{ item.app_no }} <br>
+    📅  Application Date: {{ item.app_date }} <br>
+    {% unless item.pub_no == blank %}
+      🆔  Publication Number: {{ item.pub_no }} <br>
+      📅  Publication Date: {{ item.pub_date }} <br>
+    {% endunless %}
+    {% unless item.auth_no == blank %}
+      🆔  Authorization Number: {{ item.auth_no }} <br>
+      📅  Authorization Date: {{ item.auth_date }} <br>
+    {% endunless %}
+    🧑‍🎓  Authors: 
+    {% for author in item.authors -%} 
+      {{ author.name }}
+      {% if forloop.last == true %}
+        <BR>
+      {% else %}
+        , 
+      {% endif %}
+    {% endfor %}
+    <div class="links">
+      <!-- Reference: PDF -->
+      {%- if item.pdf %}
+        <a href="{{ item.pdf | prepend: 'patents/' | prepend: site.external_path }}" class="badge" role="button">PDF</a>
+      {%- endif %}
+      <!-- Reference: LINK -->
+      {%- if item.ref %}
+        <a href="{{ item.ref }}" class="badge" role="button">Site</a>
+      {%- endif %}
+    </div>
+  </td>
+</tr>

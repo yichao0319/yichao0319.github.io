@@ -222,7 +222,7 @@ scholar:
   last_name: Chen
   first_name: Yi-Chao
 
-  style: apa
+  style: chicago-fullnote-bibliography
   locale: en
 
   source: /_bibliography/
