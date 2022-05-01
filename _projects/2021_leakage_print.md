@@ -163,6 +163,6 @@ Power Quality and Utilisation. Journal, 2009.
 ## Publication
 
 <div hidden>
-{% cite ding-iwmut21 -f journal %}
+{% cite ding-imwut21 -f journal %}
 </div>
 
