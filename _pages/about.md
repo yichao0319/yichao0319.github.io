@@ -7,7 +7,7 @@ subtitle: #<a href='#'>Shanghai Jiao Tong University</a>. yichao [at] sjtu.edu.c
 
 profile:
   align: right
-  image: yichao.jpg
+  image: people-yichao.jpg
   address: > #<img src="/assets/img/logo-labname.png" width="1000">
 
 news: true  # includes a list of news items

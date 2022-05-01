@@ -17,7 +17,7 @@ horizontal: true
   <h2 class="category">{{ category }}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign categorized_projects = categorized_projects | where: "show", true -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  {%- assign sorted_projects = categorized_projects | sort: "importance" | reverse %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">

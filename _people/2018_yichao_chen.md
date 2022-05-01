@@ -6,7 +6,7 @@ status: Faculty  # Faculty, Postdoc, PhD student, Master student, Undergraduate 
 occupation: Associate Professor
 affiliation: Shanghai Jiao Tong University
 bio: My research interests focus on networked systems and span the areas of mobile computing, wireless networking, and cyber-security.
-img: assets/img/yichao.jpg
+img: assets/img/people-yichao.jpg
 redirect: https://yichao0319.github.io
 importance: 1001
 ---
