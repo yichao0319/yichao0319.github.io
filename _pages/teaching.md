@@ -18,15 +18,16 @@ nav: true
           <th scope="row"><h6><label class="badge">Since {{ item.start_date }}</label></h6></th>
           <td>
             <h5> {{ item.name }} </h5>
-            🏫  {{ item.university }} <br>
-            📚  {% for id in item.course_id -%} 
+            {% include figure_inline.html path="assets/img/icon-university.png" class="img-fluid" width=15 %} &nbsp; {{ item.university }} <br>
+            {% include figure_inline.html path="assets/img/icon-class.png"      class="img-fluid" width=15 %} &nbsp; 
+                {% for id in item.course_id -%} 
                   {% if forloop.last -%}
                     {{ id }}
                   {%- else -%}
                     {{ id }}, 
                   {%- endif %}
                 {%- endfor %} <br>
-            🧑‍🎓  {{ item.audience }} <br>
+            {% include figure_inline.html path="assets/img/icon-student.png"    class="img-fluid" width=15 %} &nbsp; {{ item.audience }} <br>
           </td>
         </tr>
       {%- endfor %} 

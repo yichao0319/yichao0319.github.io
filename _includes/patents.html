@@ -2,19 +2,19 @@
   <th scope="row"><h6><label class="badge">{{ item.country }}</label></h6></th>
   <td>
     <h5> {{ item.name }} </h5>
-    🗺️  Country: {{ item.country }} <br>
-    📜  Status: {{ item.status }} <br>
-    🆔  Application Number: {{ item.app_no }} <br>
-    📅  Application Date: {{ item.app_date }} <br>
+    {% include figure_inline.html path="assets/img/icon-country.png" class="img-fluid" width=15 %} &nbsp; <b>Country:</b>              {{ item.country }} <br>
+    {% include figure_inline.html path="assets/img/icon-status.png"  class="img-fluid" width=15 %} &nbsp; <b>Status:</b>               {{ item.status }} <br>
+    {% include figure_inline.html path="assets/img/icon-apply.png"   class="img-fluid" width=15 %} &nbsp; <b>Application Number:</b>   {{ item.app_no }} <br>
+    {% include figure_inline.html path="assets/img/icon-date.png"    class="img-fluid" width=15 %} &nbsp; <b>Application Date:</b>     {{ item.app_date }} <br>
     {% unless item.pub_no == blank %}
-      🆔  Publication Number: {{ item.pub_no }} <br>
-      📅  Publication Date: {{ item.pub_date }} <br>
+      {% include figure_inline.html path="assets/img/icon-pub.png"   class="img-fluid" width=15 %} &nbsp; <b>Publication Number:</b>   {{ item.pub_no }} <br>
+      {% include figure_inline.html path="assets/img/icon-date.png"  class="img-fluid" width=15 %} &nbsp; <b>Publication Date:</b>     {{ item.pub_date }} <br>
     {% endunless %}
     {% unless item.auth_no == blank %}
-      🆔  Authorization Number: {{ item.auth_no }} <br>
-      📅  Authorization Date: {{ item.auth_date }} <br>
+      {% include figure_inline.html path="assets/img/icon-auth.png"  class="img-fluid" width=15 %} &nbsp; <b>Authorization Number:</b> {{ item.auth_no }} <br>
+      {% include figure_inline.html path="assets/img/icon-date.png"  class="img-fluid" width=15 %} &nbsp; <b>Authorization Date:</b>   {{ item.auth_date }} <br>
     {% endunless %}
-    🧑‍🎓  Authors: 
+    {% include figure_inline.html path="assets/img/icon-author.png"  class="img-fluid" width=15 %} &nbsp; <b>Authors:</b> 
     {% for author in item.authors -%} 
       {{ author.name }}
       {% if forloop.last == true %}
