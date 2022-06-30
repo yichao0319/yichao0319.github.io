@@ -6,7 +6,7 @@ img: assets/img/project-oisenhance-cover.jpg
 importance: 2021.9
 category: research
 date: 2022-03-26
-show: false
+show: true
 
 authors:
   - name: Hao Pan
