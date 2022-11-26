@@ -4,4 +4,4 @@ date: 2022-07-02
 inline: true
 ---
 
-Our paper is accepted by ACM MobiCom 2022.
+**DoCam** is accepted by ACM MobiCom 2022.
