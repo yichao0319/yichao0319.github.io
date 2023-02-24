@@ -2,9 +2,9 @@
 layout: default
 first_name: Hao
 last_name: Pan
-status: PhD Student  # Faculty, Postdoc, PhD student, Master student, Undergraduate student, Alumni
-occupation: PhD Student
-affiliation: Shanghai Jiao Tong University
+status: Alumni  # Faculty, Postdoc, PhD student, Master student, Undergraduate student, Alumni
+occupation: Researcher
+affiliation: Microsoft Research Asia - Shanghai
 bio: My research interests focus on networked systems and span the areas of mobile computing, human-comuputer interaction and computer vision.
 img: assets/img/people-haopan2.png
 redirect: https://haopan.netlify.app/
