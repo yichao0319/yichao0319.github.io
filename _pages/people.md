@@ -4,7 +4,7 @@ title: People
 rank: 5
 permalink: /people/
 description: 
-nav: true
+nav: false
 display_categories: [Faculty, PhD Student, Master Student, Undergraduate Student, Alumni]
 ---
 

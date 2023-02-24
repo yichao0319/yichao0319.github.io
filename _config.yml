@@ -122,6 +122,9 @@ collections:
   people:
     output: true
     permalink: /people/:path/
+  internal:
+    output: true
+    permalink: /internal/:path/
   
 
 news_limit: 20
