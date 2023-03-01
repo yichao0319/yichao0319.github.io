@@ -11,6 +11,16 @@
         <a href="{{ page.video | prepend: 'meetings/' | prepend: site.external_path }}" class="badge" role="button"> video </a>
       {%- endif %}
     {%- endif %}
+    {% if page.record != blank %}
+      &nbsp; 
+      {% if page.record contains '://' -%}
+        <a href="{{ page.record }}" class="badge" role="button"> record </a>
+      {% elsif site.external_path == blank %}
+        <a href="{{ page.record | prepend: '/assets/meetings/' | relative_url }}" class="badge" role="button"> record </a>
+      {%- else -%}
+        <a href="{{ page.record | prepend: 'meetings/' | prepend: site.external_path }}" class="badge" role="button"> record </a>
+      {%- endif %}
+    {%- endif %}
   </div>
   {% for presentor in page.presentors -%}
     <div style="font-weight: normal; text-align: left; font-size: 16px">
