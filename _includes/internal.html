@@ -24,9 +24,14 @@
   </div>
   {% for presentor in page.presentors -%}
     <div style="font-weight: normal; text-align: left; font-size: 16px">
-      {{ presentor.name }}
+      {% if presentor.name != blank %}
+        {{ presentor.name }}
+      {% endif %}
       {% if presentor.title != blank %}
-        , {{ presentor.title }}
+        {% if presentor.name != blank %}
+          , 
+        {% endif %}
+        {{ presentor.title }}
       {% endif %}
       &nbsp; 
       {% if presentor.file contains '://' -%}
