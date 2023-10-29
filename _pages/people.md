@@ -5,7 +5,7 @@ rank: 5
 permalink: /people/
 description: 
 nav: false
-display_categories: [Faculty, PhD Student, Master Student, Undergraduate Student, Alumni]
+display_categories: [Faculty, Postdoc, PhD Student, Master Student, Undergraduate Student, Alumni]
 ---
 
 <div class="projects">
