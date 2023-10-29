@@ -1,7 +1,7 @@
 ---
 layout: default
-first_name: Yijie
-last_name: Li
+first_name: Lanqing
+last_name: Yang
 status: PhD Student  # Faculty, Postdoc, PhD student, Master student, Undergraduate student, Alumni
 occupation: PhD Student
 affiliation: Shanghai Jiao Tong University
