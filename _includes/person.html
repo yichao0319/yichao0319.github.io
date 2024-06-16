@@ -1,0 +1,16 @@
+
+<h1 class="post-title"><span class="font-weight-bold">{{ page.first_name }}</span> {{ page.last_name }}</h1>
+
+<div style="font-type: bold; font-size=18px">{{ page.occupation }}, <a href='#'>{{ page.affiliation }}</a></div><br>
+
+<div class="profile float-right">
+  {%- if page.img %}
+    <!-- picture -->
+    {%- assign profile_image_path = page.img -%}
+    {% include figure.html 
+    path=profile_image_path 
+    class="img-fluid z-dept-1 rounded"
+    alt=page.first_name -%}
+  {% endif -%}
+</div>
+
