@@ -51,10 +51,10 @@ Researchers [2] have used wristbands equipped with electrodes to collect electri
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-leakprint-human.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-leakprint-human.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-leakprint-cover.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-leakprint-cover.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -70,7 +70,7 @@ Most of the biometric characteristics were distributed in the high frequency ban
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-leakprint-con_cur.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-leakprint-con_cur.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -80,10 +80,10 @@ Most of the biometric characteristics were distributed in the high frequency ban
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-leakprint-2users.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-leakprint-2users.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-leakprint-same_user.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-leakprint-same_user.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -103,7 +103,7 @@ In the login phase, the system identifies the user by leakage current. First, Le
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-leakprint-system.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-leakprint-system.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -120,7 +120,7 @@ LeakPrint was implemented on a MacBook Pro, and a desktop computer was used as t
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-leakprint-setup.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-leakprint-setup.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -132,13 +132,13 @@ The 15 legitimate users were denoted as (U1,U2,...,U15), and the attackers were 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-leakprint-confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-leakprint-confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-leakprint-confusion_matrix2.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-leakprint-confusion_matrix2.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-leakprint-ROC.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-leakprint-ROC.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -62,7 +62,7 @@ In the current study, we sought to propose AudioSense, novel software-based solu
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-audiosense-cover.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-audiosense-cover.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -79,7 +79,7 @@ Power factor correction (PFC) circuits are meant to improve energy utilization e
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-audiosense-pfc.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-audiosense-pfc.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -108,7 +108,7 @@ From the above equation, the current $I_r$ of the smart speaker contains the cur
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-audiosense-powernetwork.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-audiosense-powernetwork.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -124,7 +124,7 @@ Specifically, the two main causes of acoustic noise from power supplies are Magn
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-audiosense-magnetostriction.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-audiosense-magnetostriction.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -139,7 +139,7 @@ As the audio signal received by the smart speaker is strongly correlated to the 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-audiosense-audio.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-audiosense-audio.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -171,7 +171,7 @@ The image of a prototype of AudioSense is shown as `Fig. 6`. We plugged a power 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-audiosense-setup.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-audiosense-setup.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
