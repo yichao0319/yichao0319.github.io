@@ -7,7 +7,7 @@
   {%- if page.img %}
     <!-- picture -->
     {%- assign profile_image_path = page.img -%}
-    {% include figure.html 
+    {% include figure.liquid 
     path=profile_image_path 
     class="img-fluid z-dept-1 rounded"
     alt=page.first_name -%}
