@@ -28,7 +28,7 @@ display_categories: [Faculty, Postdoc, PhD Student, Master Student, Undergraduat
               <div class="card hoverable">
                 <div class="row row-cols-2">
                   <div class="card-img col-md-4">
-                    {%- include figure.html
+                    {%- include figure.liquid
                       path=person.img
                       alt="person thumbnail" -%}
                   </div>
