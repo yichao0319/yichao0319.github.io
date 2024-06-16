@@ -63,7 +63,7 @@ We also propose mID, a new watermark-like technique that can create a carefully 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-moire-nonlinearity.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-moire-nonlinearity.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -76,7 +76,7 @@ We also propose mID, a new watermark-like technique that can create a carefully 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-moire-mqrcode.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-moire-mqrcode.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -91,7 +91,7 @@ Quick response (QR) codes are becoming pervasive due to their rapid readability 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-moire-mid.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-moire-mid.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

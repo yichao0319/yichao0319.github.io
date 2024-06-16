@@ -62,7 +62,7 @@ OnionCode adopts a multipriority receiving shown in `Fig. 1(b)`, i.e., a specifi
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-onioncode-cover.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-onioncode-cover.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -74,7 +74,7 @@ For the ease of understanding, we depict the transmission model of OnionCode in 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-onioncode-transmodel.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-onioncode-transmodel.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

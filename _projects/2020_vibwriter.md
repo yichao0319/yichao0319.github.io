@@ -44,10 +44,10 @@ The efficiency of human-computer interaction is greatly hindered by the small si
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-vibwriter-letters_accel.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-vibwriter-letters_accel.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-vibwriter-letters.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-vibwriter-letters.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -56,14 +56,14 @@ The efficiency of human-computer interaction is greatly hindered by the small si
 
 ***
 
-## System 
+## System
 
 *VibWriter* comprises three modules: letter segmentation, letter recognition, and word suggestion. Vibration signal detected by the built-in accelerometer is first sent to the letter segmentation module to be divided into discrete segments. The letter recognition module identifies the different segments. Finally, the word suggestion module combines the letters into words. 
 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-vibwriter-system.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-vibwriter-system.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -109,7 +109,7 @@ VibWriter is implemented on a Samsung S7 and a MacBook Pro (Intel Core i9 CPU@2.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-vibwriter-cover.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-vibwriter-cover.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -122,7 +122,7 @@ We use the top-1 output of the network as the recognition result. As shown in Fi
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-vibwriter-confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-vibwriter-confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

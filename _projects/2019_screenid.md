@@ -64,7 +64,7 @@ with the generation of a legal QR code, which includes the ID of the user in the
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-screenid-authentication.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project-screenid-authentication.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -100,7 +100,7 @@ asynchronous.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-screenid-photo.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/project-screenid-photo.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -111,7 +111,7 @@ Therefore, the key idea of ScreenID is to model the screen-camera interaction in
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project-screenid-overview.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/project-screenid-overview.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
