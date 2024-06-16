@@ -7,7 +7,12 @@ body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     scroll-margin-top: 66px;
   }
 }
@@ -35,141 +40,14 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
-
 /******************************************************************************
  * Publications
  ******************************************************************************/
 
 // TODO: redefine publications layout.
 
-
 /*****************************************************************************
 * Projects
 *****************************************************************************/
 
 // TODO: redefine projects layout.
-
-
-/*****************************************************************************
-* News
-*****************************************************************************/
-
-div.news {
-
-  .badge {
-    display: inline-block;
-    color: #{$white-color};
-    background-color: var(--global-theme-color);
-    min-width: 10px;
-    padding: 3px 15px;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    border-radius: 2px;
-  }
-
-  h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-  }
-}
-
-/*****************************************************************************
-* Patents
-*****************************************************************************/
-
-div.patents {
-
-  h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-  }
-
-  .badge {
-    display: inline-block;
-    color: #{$white-color};
-    background-color: var(--global-theme-color);
-    min-width: 10px;
-    padding: 3px 15px;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    border-radius: 2px;
-  }
-
-  a.badge {
-    display: inline-block;
-    color: #{$white-color};
-    background-color: #9e9e9e;
-    min-width: 10px;
-    padding: 3px 6px;
-    font-size: 12px;
-    font-weight: normal;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    border-radius: 2px;
-    margin-right: 2px;
-    &:hover {
-      background-color: var(--global-theme-color);
-    }
-  }
-}
-
-
-/*****************************************************************************
-* Internal
-*****************************************************************************/
-
-div.internal {
-
-  .badge {
-    display: inline-block;
-    color: #{$white-color};
-    background-color: var(--global-theme-color);
-    min-width: 10px;
-    padding: 3px 15px;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    border-radius: 2px;
-  }
-
-  a.badge {
-    display: inline-block;
-    color: #{$white-color};
-    background-color: #9e9e9e;
-    min-width: 10px;
-    padding: 3px 6px;
-    font-size: 12px;
-    font-weight: normal;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    border-radius: 2px;
-    margin-right: 2px;
-    &:hover {
-      background-color: var(--global-theme-color);
-    }
-  }
-}
-
