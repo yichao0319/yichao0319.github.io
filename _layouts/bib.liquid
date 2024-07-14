@@ -170,6 +170,10 @@
       {{ entry.note | strip }}
     </div>
 
+    {% if entry.special %}
+      <div class="special">({{entry.special}})</div>
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
