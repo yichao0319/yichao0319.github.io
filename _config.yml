@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: logo # the website title (if blank, full name will be used instead)
+title: Yi-Chao Chen # the website title (if blank, full name will be used instead)
 first_name: Yi-Chao
 middle_name: 
 last_name: Chen
@@ -251,6 +251,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - internal.md
 keep_files:
   - CNAME
   - .nojekyll
