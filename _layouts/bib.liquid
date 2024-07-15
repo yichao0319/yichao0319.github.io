@@ -247,14 +247,7 @@
       {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge %}
         <div class="badges">
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
-            <span
-              class="altmetric-embed"
-              data-hide-no-mentions="true"
-              data-hide-less-than="15"
-              data-badge-type="2"
-              data-badge-popover="right"
-              data-doi="{{ entry.doi }}"
-            ></span>
+            <span data-badge-popover="right" data-badge-type="donut" data-doi="{{entry.doi}}" data-hide-no-mentions="true" class="altmetric-embed"></span>
           {% endif %}
           {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
             <span
