@@ -773,6 +773,11 @@ footer.sticky-bottom {
         }
       }
 
+      .special {
+        font-weight: bolder;
+        color: #b71c1c;
+      }
+
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
@@ -811,12 +816,6 @@ footer.sticky-bottom {
 
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
-      }
-
-      // yichao
-      .special {
-        font-weight: bolder;
-        color: #{$red-color-dark};
       }
     }
     div.award.hidden {
