@@ -183,6 +183,7 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+    limit: 20
   projects:
     output: true
     permalink: /projects/:path/
@@ -200,7 +201,6 @@ collections:
     output: true
     permalink: /people/:path/
   
-news_limit: 20
 
 announcements:
   enabled: true
@@ -251,7 +251,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - internal.md
+  - _pages/internal.md
 keep_files:
   - CNAME
   - .nojekyll
