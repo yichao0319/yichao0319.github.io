@@ -812,6 +812,12 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+
+      // yichao
+      .special {
+        font-weight: bolder;
+        color: #{$red-color-dark};
+      }
     }
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
