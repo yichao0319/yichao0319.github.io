@@ -12,9 +12,9 @@ nav: true
 
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f conf -q @*[year={{y}}]* %}
-  {% bibliography -f journal -q @*[year={{y}}]* %}
-  {% bibliography -f poster -q @*[year={{y}}]* %}
+  {% bibliography -f conf --group_by none -q @*[year={{y}}]* %}
+  {% bibliography -f journal --group_by none -q @*[year={{y}}]* %}
+  {% bibliography -f poster --group_by none -q @*[year={{y}}]* %}
 
 {% endfor %}
 
