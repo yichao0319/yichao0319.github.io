@@ -756,6 +756,26 @@ footer.sticky-bottom {
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
+
+        // yichao
+        a.badge {
+          display: inline-block;
+          color: #{$white-color};
+          background-color: #9e9e9e;
+          min-width: 10px;
+          padding: 3px 6px;
+          font-size: 12px;
+          font-weight: normal;
+          line-height: 1;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+          border-radius: 2px;
+          margin-right: 2px;
+          &:hover {
+            background-color: var(--global-theme-color);
+          }
+        }
       }
 
       .badges {
@@ -771,11 +791,6 @@ footer.sticky-bottom {
             text-decoration: underline;
           }
         }
-      }
-
-      .special {
-        font-weight: bolder;
-        color: #b71c1c;
       }
 
       .hidden {
@@ -816,6 +831,12 @@ footer.sticky-bottom {
 
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
+      }
+
+      // yichao
+      .special {
+        font-weight: bolder;
+        color: #{$red-color-dark};
       }
     }
     div.award.hidden {

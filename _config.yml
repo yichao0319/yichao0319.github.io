@@ -28,7 +28,7 @@ external_path: https://www.cs.sjtu.edu.cn/~yichao/assets/  # yichao: the externa
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: swift # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: one_dark_pro # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
