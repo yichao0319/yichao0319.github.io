@@ -6,6 +6,6 @@ name: The Technologies and Trend of Internet of Things
 course_id: [MEM]
 audience: Master of Engineering Management
 university: Shanghai Jiao Tong University
-status: close
+status: open
 order: 30
 ---

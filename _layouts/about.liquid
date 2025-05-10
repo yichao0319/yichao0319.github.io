@@ -41,26 +41,30 @@ layout: default
             {{ content }}
           </div>
 
+          
           {% if page.news -%}
-          <!-- News -->
-          {%- include news.liquid %}
+            <!-- News -->
+            {%- include news.liquid limit=true%}
           {%- endif %}
+          
+
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.liquid %}
           {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
+          
 
-            <div class="contact-note">
-              {{ site.contact_note }}
+          {%- if page.social %}
+            <!-- Social -->
+            <div class="social">
+              <div class="contact-icons">
+              {% include social.html %}
+              </div>
+
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
             </div>
-            
-          </div>
           {%- endif %}
         </article>
 
