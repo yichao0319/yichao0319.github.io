@@ -1,8 +1,8 @@
 ---
 layout: project
-title: Applications of OIS beyond Image Stabilization
-description: We explore the method to control optical image stabilization (OIS) module of phone camera without additional hardware and develop applications including depth maps and super-resolution images.
-img: assets/img/projects/project-oisenhance-cover.jpg
+title: Optical Image Stabilization -- Unlocking Hidden Potentials of Your Smartphone Camera
+description: Optical Image Stabilization (OIS), initially designed to reduce camera shake and enhance photo clarity, can now revolutionize how we interact with everyday technology. By controlling OIS in innovative ways, we unlock capabilities such as precise depth sensing and image super-resolution, significantly enhancing smartphone photography and enabling new applications without additional hardware.
+img: assets/img/projects/project-oisenhance-cover.png
 importance: 2021.9
 category: research
 date: 2022-03-26
@@ -49,55 +49,103 @@ authors:
 
 ---
 
+## Abstract
 
-## Summary
+Optical Image Stabilization (OIS), initially designed to reduce camera shake and enhance photo clarity, can now revolutionize how we interact with everyday technology. By controlling OIS in innovative ways, we unlock capabilities such as precise depth sensing and image super-resolution, significantly enhancing smartphone photography and enabling new applications without additional hardware.
 
-Smartphones are widely used for photography due to their portability and convenience. It’s reported that 90.9% of all photos are taken with smartphones in 2021, and a growing number of professional photographers are adopting mobile cameras as one of their primary photographic tools. To accommodate the diverse needs from casual photos of everyday life to professional photos, smartphone manufacturers have been enhancing phone cameras by installing more lenses, image sensors with larger and higher resolutions, depth sensors, etc. Upgrades to camera hardware have further facilitated new applications, including depth maps, 3D modeling, augmented reality, etc.; however, upgrades have also significantly increased the cost of smartphones. In this project, we show that, without adding additional hardware, we can enhance the functionality of existing smartphone cameras by controlling the Optical Image Stabilization (OIS) module.
+## What is OIS?
 
-
-***
-
-## OISSR
+Optical Image Stabilization (OIS) is a common feature in modern smartphones, designed to compensate for hand movements during photography, reducing blurriness in captured images. It achieves this by physically moving the camera lens slightly to counteract motion detected by built-in sensors. `Fig. 1` illustrates the lens-shift OIS architecture, where the camera lens position is dynamically adjusted based on gyroscope readings.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/project-oissr.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-oisenhance-cover.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/project-oisenhance-docam-01.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Fig. 1 Top sub-figures show the original image captured by the Xiaomi 11Pro camera, whereas the bottom sub-figures show the super-resolution results obtained using the OISSR system.
+Fig. 1  Optical Image Stabilization (OIS) and the working principle.
 </div>
 
-We sought to develop a robust optical image stabilization based super resolution method (called OISSR) for use on smartphone cameras with OIS modules. After delving into the working principle of OIS, acoustic injection is used to alter the readings from the built-in MEMS gyroscope to control the lens motion in the OIS module (note that the image sensor is fixed). We employ a priori knowledge of the induced lens motion to facilitate optical flow estimation with sub-pixel accuracy, and the output high-precision pixel alignment vectors are utilized to merge the multiple frames to reconstruct the final super resolution image. Extensive experiments on a OISSR prototype implemented on a Xiaomi 10Ultra smartphone demonstrate the high performance and effectiveness of the proposed system in obtaining the quadruple enhanced resolution imaging.
 
 
+## Benefits of Controlling OIS
 
-***
+If we can actively control OIS, we go beyond reducing blur to precisely manipulate the lens movements, enabling novel functionalities like depth measurement and high-resolution imaging, without the need for specialized hardware such as multiple lenses or dedicated depth sensors.
 
-## DoCam
+
+---
+
+## Super Resolution Imaging with OIS (OISSR)
+
+While standard smartphone cameras face resolution limits due to hardware constraints, the **OISSR** system overcomes these by leveraging precise lens movements enabled by OIS. As shown in `Fig. 2`, by acoustically injecting signals into the built-in gyroscope, OISSR finely controls lens positioning, allowing multiple low-resolution captures to align precisely and combine into a high-resolution image.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/project-docam.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-oisenhance-oissr-01.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Fig. 2 Structure from OIS-controlled Motion (SfOM) algorithm is proposed to recover the accurate camera poses, and high quality dense depth map can be estimate.
+Fig. 2  OISSR applies acoustic injection to alter the built-in MEMS gyroscope readings to control the lens motion in OIS-supported cameras and further enables the sub-pixel alignments of multiple frames to facilitate merging into a super-resolution image. 
 </div>
 
-We dig into the potential of the existing OIS techniques in depth sensing and propose DoCam, the first work that utilizes the OIS-controlled lens motion to perceive metric depth of scene. We develop a unified framework by which to estimate accurate camera poses from image sequences with a micro-scale stereo baseline for use in high-quality depth estimation. Specifically, the bundle adjustment is reformulated by applying constraints on the multi-view geometry and the OIS controlling signal. Thus, our system is able to achieve high-quality depth estimation without additional camera movement, making it particularly suitable for scenarios where the camera is fixed and requiring surrounding 3D information.
+We sought to control the MEMS gyroscope readings for the reason that: the acoustic sinusoidal signals that can control gyroscope readings should be close to resonance frequency of the sensing mass, which mainly ranges from $18kHz$ to $30kHz$ and is friendly and inaudible to human ears. By contrast, the acoustic signals required to affect accelerome ters would be well within the audible range ($2kHz$-$10kHz$), which brings acoustic noise to the human ear. A Xiaomi 10Ultra is used as a test device here. We first identify the resonance frequency (i.e., around $18.79kHz$) of the built-in MEMS gyroscope via frequency sweeping. We then use the built-in speaker to play a .wav file of a sinusoidal acoustic signals with the same resonance frequency of the MEMS gyroscope. Android APIs are used to collect 6-axis IMU readings at a sampling rate of 200 𝐻𝑧, and the offset angles calculated from the 3-axis gyroscope readings (actual angular velocity). The lens position is then controlled by the OIS module with these offset angles as shown in `Fig. 3`.
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/project-oisenhance-oissr-02.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Fig. 3  Corresponding results with a stationary Xiaomi10 Ultra smartphone (fixed on the tripod) under the effects of acoustic signals (start at $0.5$ seconds) with frequencies of $18795Hz$ that played by the built-in speaker.
+</div>
+
+
+The system captures multiple frames while the lens is subtly moved, creating different pixel alignments. These frames are then merged using advanced algorithms to produce enhanced images with superior clarity and detail. The results, shown in `Fig. 4`, clearly demonstrate the significant quality enhancement achieved by OISSR, producing sharp, detailed images that far exceed typical camera capabilities. OISSR achieves remarkable improvements in clarity, enhancing resolution by a factor of four and dramatically reducing noise, making it highly effective in everyday scenarios such as detailed landscape photography and clear textual documentation.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/project-oisenhance-oissr-03.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Fig. 4  Visual comparison of standard vs. OISSR-enhanced images.
+</div>
+
+
+---
+
+## Depth Sensing with OIS-controlled Lens Motion (DoCam)
+
+Smartphones typically rely on specialized sensors for 3D measurements, but these have limitations such as sensitivity to ambient light and limited operational range. The **DoCam** system cleverly exploits controlled OIS lens movements, transforming a regular RGB camera into an effective depth-sensing device. The system modulates the smartphone's built-in MEMS gyroscope via acoustic signals, controlling the lens position for precise depth reconstruction.
+
+The key innovation is a Structure from OIS-controlled Motion (SfOM) algorithm, enhancing traditional 3D reconstruction by accurately estimating the camera's position and depth map using minimal lens movement. This precise lens control significantly improves the accuracy of depth sensing, offering a robust solution for applications like augmented reality and secure facial recognition. The DoCam system demonstrates exceptional performance, as shown in `Fig. 5`, providing accurate depth maps suitable for both indoor and outdoor environments, vastly improving the capabilities of standard smartphone cameras without additional hardware.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/project-oisenhance-docam-01.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Fig. 5  End-to-end dense depth map comparison of our proposed DoCam and other depth estimation systems.
+</div>
+
+
+---
 
 ## Demo Video
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" width="560" height="315"
-    src="https://www.youtube.com/embed/IZ1_tr5mquQ" frameborder="0"
+    src="https://www.youtube.com/embed/IZ1_tr5mquQ?si=1U65045dewqq1QNl" frameborder="0"
     allowfullscreen=""></iframe>
 </div>
 
-
-***
+---
 
 ## Publication
 

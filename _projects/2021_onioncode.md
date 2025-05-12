@@ -3,7 +3,7 @@ layout: project
 title: Enabling Multi-priority Coding in LED-based Optical Camera Communications
 description: We propose a novel hierarchical coding scheme named as OnionCode to support dynamic range of channel capacity in one-to-many OCC scenario.
 img: assets/img/projects/project-onioncode-cover.png
-importance: 2121
+importance: 2021
 category: research
 date: 2021-10-21
 show: true
