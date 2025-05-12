@@ -6,7 +6,7 @@ status: PhD Student  # Faculty, Postdoc, PhD student, Master student, Undergradu
 occupation: PhD Student
 affiliation: Shanghai Jiao Tong University
 bio: I received the B.Eng major in ECE from Shanghai Jiao Tong University in 2020. My research interests reside in Mobile Computing and Networking. Currently, I’m working on 5G indoor localization algorithms.
-img: assets/img/people-runting2.png
+img: assets/img/people/people-runting2.png
 importance: 1001
 ---
 

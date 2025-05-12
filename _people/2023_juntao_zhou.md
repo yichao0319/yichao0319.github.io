@@ -6,7 +6,7 @@ status: PhD Student  # Faculty, Postdoc, PhD student, Master student, Undergradu
 occupation: PhD Student
 affiliation: Shanghai Jiao Tong University
 bio: I obtained my B.S. in Cyberspace Security at Wuhan University in 2023. I am studying for my Ph.D. in Computer Science at Shanghai Jiao Tong University. My main research interests focus on acoustic sensing and communication, mobile computing, and human-computer interaction.
-img: assets/img/people-juntao-zhou.jpg
+img: assets/img/people/people-juntao-zhou.jpg
 importance: 1001
 ---
 

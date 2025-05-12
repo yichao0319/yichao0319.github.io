@@ -2,7 +2,7 @@
 layout: project
 title: Utilizing Acoustic-based Imaging for Issuing Contact-Free Silent Speech Commands
 description: A silent speech interface based on acoustic signals.
-img: assets/img/project-endophasia-cover.png
+img: assets/img/projects/project-endophasia-cover.png
 importance: 2019
 category: research
 date: 2019-01-30
@@ -46,7 +46,7 @@ Using silent speech to issue commands has received growing attention, as users c
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-endophasia-use_case.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-endophasia-use_case.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -55,7 +55,7 @@ Using silent speech to issue commands has received growing attention, as users c
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-endophasia-images.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-endophasia-images.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -64,7 +64,7 @@ Using silent speech to issue commands has received growing attention, as users c
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-endophasia-system.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-endophasia-system.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

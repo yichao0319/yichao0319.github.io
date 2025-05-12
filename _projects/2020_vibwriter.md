@@ -2,7 +2,7 @@
 layout: project
 title: Handwriting Recognition System based on Vibration Signal
 description: We presented a novel handwriting recognition system based on vibration signals detected by the built-in accelerometer of smart phones.
-img: assets/img/project-vibwriter-cover.png
+img: assets/img/projects/project-vibwriter-cover.png
 importance: 2021
 category: research
 date: 2021-01-31
@@ -44,10 +44,10 @@ The efficiency of human-computer interaction is greatly hindered by the small si
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-vibwriter-letters_accel.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-vibwriter-letters_accel.png" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-vibwriter-letters.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-vibwriter-letters.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -63,7 +63,7 @@ The efficiency of human-computer interaction is greatly hindered by the small si
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-vibwriter-system.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-vibwriter-system.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -109,7 +109,7 @@ VibWriter is implemented on a Samsung S7 and a MacBook Pro (Intel Core i9 CPU@2.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-vibwriter-cover.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-vibwriter-cover.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -122,7 +122,7 @@ We use the top-1 output of the network as the recognition result. As shown in Fi
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-vibwriter-confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-vibwriter-confusion_matrix.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

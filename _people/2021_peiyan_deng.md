@@ -6,7 +6,7 @@ status: Master Student  # Faculty, Postdoc, PhD student, Master student, Undergr
 occupation: Master Student
 affiliation: Shanghai Jiao Tong University
 bio: My name is Deng Peiyan, and I am a graduate student from the Network Services and Computing Laboratory, Class of 2021. I am an aspiring novice programmer who is passionate about learning. I enjoy various sports, traveling, hiking, and outdoor activities.
-img: assets/img/people-peiyan-deng.jpg
+img: assets/img/people/people-peiyan-deng.jpg
 importance: 1001
 ---
 

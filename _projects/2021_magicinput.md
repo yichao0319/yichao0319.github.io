@@ -2,7 +2,7 @@
 layout: project
 title: Magic Finger Input System
 description: We propose a training-free text input system called MagicInput that support multiple languages using acoustic-based 1D finger tracking technology. An artificial dataset (called TrackMNIST) simulated from MNISTseries datasets is utilized to satisfy the various users' writing characteristics.
-img: assets/img/project-magicinput-cover.png
+img: assets/img/projects/project-magicinput-cover.png
 importance: 2021.1
 category: research
 date: 2021-05-18
@@ -35,7 +35,7 @@ Text input systems based on device-free finger tracking technologies have attrac
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-magicinput-cover.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-magicinput-cover.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

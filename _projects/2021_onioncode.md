@@ -2,7 +2,7 @@
 layout: project
 title: Enabling Multi-priority Coding in LED-based Optical Camera Communications
 description: We propose a novel hierarchical coding scheme named as OnionCode to support dynamic range of channel capacity in one-to-many OCC scenario.
-img: assets/img/project-onioncode-cover.png
+img: assets/img/projects/project-onioncode-cover.png
 importance: 2121
 category: research
 date: 2021-10-21
@@ -14,10 +14,6 @@ authors:
       name: Shanghai Jiao Tong University
   - name: Yi-Chao Chen
     url: "https://www.cs.sjtu.edu.cn/~yichao/pmwiki/pmwiki.php"
-    affiliations:
-      name: Shanghai Jiao Tong University
-  - name: Guangtao Xue
-    url: "https://www.cs.sjtu.edu.cn/~xue-gt/"
     affiliations:
       name: Shanghai Jiao Tong University
   - name: Guangtao Xue
@@ -62,7 +58,7 @@ OnionCode adopts a multipriority receiving shown in `Fig. 1(b)`, i.e., a specifi
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-onioncode-cover.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-onioncode-cover.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -70,11 +66,11 @@ OnionCode adopts a multipriority receiving shown in `Fig. 1(b)`, i.e., a specifi
 </div>
 
 
-For the ease of understanding, we depict the transmission model of OnionCode in `Fig. 2`. OnionCode assumes that a multi-priority bitstream (4 priority levels) is being sent by the transmitter. For each symbol period, we take one bit from each bit streams to form the sending bits $$ DT = 0101 $$. Then, $$ DT $$ is mapped through an encoding table $$ EnT $$ to the LED on/off states $$ LT = 1011 $$ (1 for on and 0 for off). The LED light passes through the optical channel and a receiver camera in layer 3 observes the LED state as $$ LR_3 = 1[011] $$, where '1' indicates that the first LED is independent and lit, and $$ '[011]' $$ indicates that the next three LEDs are mixed with two of them lit. The receiver decodes $$ LR_3 $$ according to a decoding table dedicated to layer 3 ($$ DeT_3 $$), and get the resultant bit $$ DR_3 = 01XX $$. The 'X' means that the corresponding bit stream is discarded due to low priority, and the receiver can receive the bit streams of highest and second highest priority. Next, we further explain the concepts and variable definitions mentioned above.
+For the ease of understanding, we depict the transmission model of OnionCode in `Fig. 2`. OnionCode assumes that a multi-priority bitstream (4 priority levels) is being sent by the transmitter. For each symbol period, we take one bit from each bit streams to form the sending bits $$ DT = 0101 $$. Then, $$ DT $$ is mapped through an encoding table $$ EnT$$ to the LED on/off states $$ LT = 1011 $$ (1 for on and 0 for off). The LED light passes through the optical channel and a receiver camera in layer 3 observes the LED state as $$ LR_3 = 1[011] $$, where '1' indicates that the first LED is independent and lit, and $$ '[011]' $$ indicates that the next three LEDs are mixed with two of them lit. The receiver decodes $$ LR_3 $$ according to a decoding table dedicated to layer 3 ($$ DeT_3 $$), and get the resultant bit $$ DR_3 = 01XX $$. The 'X' means that the corresponding bit stream is discarded due to low priority, and the receiver can receive the bit streams of highest and second highest priority. Next, we further explain the concepts and variable definitions mentioned above.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-onioncode-transmodel.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-onioncode-transmodel.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -2,7 +2,7 @@
 layout: project
 title: Nonlinearity of Spatial Frequency in Light and Its Applications
 description: We model the nonlinear interaction between Color Filter Array and screens, and build applications inlcluding the novel optical encryption method for QR codes on top of our model.
-img: assets/img/project-moire-cover.png
+img: assets/img/projects/project-moire-cover.png
 importance: 2021.2
 category: research
 date: 2019-10-21
@@ -63,7 +63,7 @@ We also propose mID, a new watermark-like technique that can create a carefully 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-moire-nonlinearity.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-moire-nonlinearity.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -76,7 +76,7 @@ We also propose mID, a new watermark-like technique that can create a carefully 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-moire-mqrcode.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-moire-mqrcode.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -91,7 +91,7 @@ Quick response (QR) codes are becoming pervasive due to their rapid readability 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-moire-mid.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-moire-mid.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -2,7 +2,7 @@
 layout: project
 title: Near-filed communication via EM side-channel
 description: A novel near-filed communication that utilizes EMI signals emitted from CPUs to transmit data and magnetometers on mobile devices to receive data.
-img: assets/img/project-magnecomm-cover.png
+img: assets/img/projects/project-magnecomm-cover.png
 importance: 2017
 category: research
 date: 2017-10-16
@@ -35,7 +35,7 @@ Near-field communication (NFC) plays a crucial role in the operation of mobile d
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-magnecomm-cover.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-magnecomm-cover.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

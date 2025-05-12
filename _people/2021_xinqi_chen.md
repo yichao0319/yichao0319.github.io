@@ -6,7 +6,7 @@ status: PhD Student  # Faculty, Postdoc, PhD student, Master student, Undergradu
 occupation: PhD Student
 affiliation: Shanghai Jiao Tong University
 bio: I received the B.E degree in electronical information science and technology from Sun-Yat Sen University, China, in 2021. I am now a PhD student at Mobile Sensing and Interaction Lab. My current research interests reside in side-channel attack, mobile computing and wireless sensing.
-img: assets/img/people-xinqi2.png
+img: assets/img/people/people-xinqi2.png
 importance: 1001
 ---
 

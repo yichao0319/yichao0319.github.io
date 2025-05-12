@@ -6,7 +6,7 @@ status: PhD Student  # Faculty, Postdoc, PhD student, Master student, Undergradu
 occupation: PhD Student
 affiliation: Shanghai Jiao Tong University
 bio: I am a PhD student at Mobile Sensing and Interaction Lab since 2019. My research interests include mobile computing and networking. Currently, I am working on projects using sound effect as a way of human computer interaction.
-img: assets/img/people-yezhou.png
+img: assets/img/people/people-yezhou.png
 importance: 1001
 ---
 

@@ -6,7 +6,7 @@ status: Master Student  # Faculty, Postdoc, PhD student, Master student, Undergr
 occupation: Master Student
 affiliation: Shanghai Jiao Tong University
 bio: I am a third-year master student at Shanghai Jiao Tong University, and my advisor is Professor Yi-Chao Chen. My research focus is indoor positioning of wireless signals.
-img: assets/img/people-yu-jiang2.jpg
+img: assets/img/people/people-yu-jiang2.jpg
 importance: 1001
 ---
 

@@ -2,7 +2,7 @@
 layout: project
 title: MagThief
 description: MagThief outlines a novel monitoring system to enable the theft of sensitive app usage information without the need for user permissions on the mobile devices.
-img: assets/img/project-magthief-cover.png
+img: assets/img/projects/project-magthief-cover.png
 importance: 2016
 category: research
 date: 2021-06-06
@@ -47,7 +47,7 @@ Various characteristics of mobile applications (apps) and associated in-app serv
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-magthief-cover.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-magthief-cover.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

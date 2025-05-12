@@ -2,7 +2,7 @@
 layout: project
 title: Applications of OIS beyond Image Stabilization
 description: We explore the method to control optical image stabilization (OIS) module of phone camera without additional hardware and develop applications including depth maps and super-resolution images.
-img: assets/img/project-oisenhance-cover.jpg
+img: assets/img/projects/project-oisenhance-cover.jpg
 importance: 2021.9
 category: research
 date: 2022-03-26
@@ -61,7 +61,7 @@ Smartphones are widely used for photography due to their portability and conveni
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-oissr.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-oissr.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -78,7 +78,7 @@ We sought to develop a robust optical image stabilization based super resolution
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/project-docam.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/project-docam.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -94,6 +94,17 @@ We dig into the potential of the existing OIS techniques in depth sensing and pr
   <iframe class="embed-responsive-item" width="560" height="315"
     src="https://www.youtube.com/embed/IZ1_tr5mquQ" frameborder="0"
     allowfullscreen=""></iframe>
+</div>
+
+
+***
+
+## Publication
+
+<div hidden>
+{% cite pan-mm22 %}
+{% cite pan-mobicom22 %}
+{% cite lu-sensys24 %}
 </div>
 
 
