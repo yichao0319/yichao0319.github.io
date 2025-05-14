@@ -5,7 +5,7 @@ description: Bridge represents a pivotal step towards universal indoor localizat
 img: assets/img/projects/project-bridge-cover.png
 importance: 2025
 category: research
-date: 2025-04-01
+date: 2025-05-01
 show: true
 
 authors:
