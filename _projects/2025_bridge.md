@@ -5,7 +5,7 @@ description: Bridge represents a pivotal step towards universal indoor localizat
 img: assets/img/projects/project-bridge-cover.png
 importance: 2025
 category: research
-date: 2025-05-01
+date: 2025-05-10
 show: true
 
 authors:
@@ -123,7 +123,7 @@ The real-world test environments (`Fig. 5`) demonstrated that Bridge works relia
     Fig. 5 Experiment environments illustrating diverse real-world scenarios.
 </div>
 
-
+***
 
 ## Publications
 

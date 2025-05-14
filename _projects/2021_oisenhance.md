@@ -135,7 +135,7 @@ Fig. 5  End-to-end dense depth map comparison of our proposed DoCam and other de
 </div>
 
 
----
+***
 
 ## Demo Video
 
@@ -145,7 +145,7 @@ Fig. 5  End-to-end dense depth map comparison of our proposed DoCam and other de
     allowfullscreen=""></iframe>
 </div>
 
----
+***
 
 ## Publication
 

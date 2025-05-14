@@ -263,7 +263,7 @@ We constructed a prototype of a multi-directional speaker employing our metasurf
 
 
 
----
+***
 
 ## Demo Video
 
@@ -273,7 +273,7 @@ We constructed a prototype of a multi-directional speaker employing our metasurf
     allowfullscreen=""></iframe>
 </div>
 
----
+***
 
 ## Publications
 
