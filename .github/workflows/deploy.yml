@@ -89,7 +89,7 @@ jobs:
         run: |
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
-          bundle exec jekyll build
+          bundle exec jekyll build --config _config.yml,_config_ci.yml
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
