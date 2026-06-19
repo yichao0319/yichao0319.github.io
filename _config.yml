@@ -248,6 +248,8 @@ exclude:
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
+  - _posts/2023-07-04-jupyter-notebook.md
+  - assets/jupyter/blog.ipynb
   - readme_preview/
   - vendor
   - _pages/internal.md

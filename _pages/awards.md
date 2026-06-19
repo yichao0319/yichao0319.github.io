@@ -15,8 +15,12 @@ horizontal: false
       <table class="table table-sm table-borderless">
       {%- assign awards = site.awards | reverse -%}
       {% for item in awards %} 
+        {%- assign display_date = item.display_date -%}
+        {%- if display_date == blank -%}
+          {%- assign display_date = item.date | date: "%Y %b" -%}
+        {%- endif -%}
         <tr>
-          <th scope="row"><h6><label class="badge">{{ item.date | date: "%Y %b" }}</label></h6></th>
+          <th scope="row"><h6><label class="badge">{{ display_date }}</label></h6></th>
           <td>
             {{ item.content }}
           </td>

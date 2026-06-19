@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2019-10-01
+display_date: "2019"
 ---
 
 **The Online Device Monitoring and Detection System based on Magnetic Signature** is awarded the 2nd prize in The Fifth Youth Innovation Competition (External Group) held by State Grid Shanghai Municipal Electric Power Company.<br>

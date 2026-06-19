@@ -692,6 +692,16 @@ footer.sticky-bottom {
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
 
+          &.venue-default {
+            color: #{$white-color};
+            background-color: var(--global-theme-color);
+            border: 0;
+
+            a {
+              color: #{$white-color};
+            }
+          }
+
           a {
             color: white;
 
