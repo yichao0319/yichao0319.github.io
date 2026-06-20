@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Patent
+title: Patents
 rank: 50
 permalink: /patents/
 description:
@@ -879,5 +879,4 @@ patents:
     </table>
   </div>
 </div>
-
 
