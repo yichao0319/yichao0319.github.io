@@ -243,18 +243,23 @@
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
-      {% assign entry_has_altmetric_badge = entry.doi %}
-      {% assign entry_has_dimensions_badge = entry.doi %}
+      {% assign entry_doi = entry.doi | default: "" | strip %}
+      {% assign entry_has_altmetric_badge = false %}
+      {% assign entry_has_dimensions_badge = false %}
+      {% if entry_doi != "" %}
+        {% assign entry_has_altmetric_badge = true %}
+        {% assign entry_has_dimensions_badge = true %}
+      {% endif %}
       {% assign entry_has_google_scholar_badge = entry.google_scholar_id %}
       {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge %}
         <div class="badges">
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
-            <span data-badge-popover="right" data-badge-type="donut" data-doi="{{entry.doi}}" data-hide-no-mentions="true" class="altmetric-embed"></span>
+            <span data-badge-popover="right" data-badge-type="donut" data-doi="{{ entry_doi }}" data-hide-no-mentions="true" class="altmetric-embed"></span>
           {% endif %}
           {% if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
             <span
               class="__dimensions_badge_embed__"
-              data-doi="{{ entry.doi }}"
+              data-doi="{{ entry_doi }}"
               data-hide-zero-citations="true"
               data-style="small_rectangle"
               data-legend="hover-right"

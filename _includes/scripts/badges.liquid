@@ -2,5 +2,12 @@
   <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 {% endif %}
 {% if site.enable_publication_badges.dimensions %}
+  <script>
+    window.__dimensions_badge_server = "https://badge.dimensions.ai";
+    window.__dimensions_badge_url = "https://badge.dimensions.ai";
+    window.__dimensions_detail_url = "https://badge.dimensions.ai";
+    window.__dimensions_metrics_api = "https://metrics-api.dimensions.ai";
+    window.__dimensions_badge_config_loaded__ = true;
+  </script>
   <script async src="https://badge.dimensions.ai/badge.js"></script>
 {% endif %}
