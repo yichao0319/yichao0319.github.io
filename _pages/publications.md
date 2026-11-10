@@ -15,6 +15,12 @@ nav: true
   {% bibliography -f conf --group_by none -q @*[year={{y}}]* %}
   {% bibliography -f journal --group_by none -q @*[year={{y}}]* %}
   {% bibliography -f poster --group_by none -q @*[year={{y}}]* %}
+  {%- capture preprint_count -%}{% bibliography_count -f preprint -q @*[year={{y}}]* %}{%- endcapture -%}
+  {%- assign preprint_count = preprint_count | plus: 0 -%}
+  {% if preprint_count > 0 %}
+    <h3>Preprints</h3>
+    {% bibliography -f preprint --group_by none -q @*[year={{y}}]* %}
+  {% endif %}
 
 {% endfor %}
 
